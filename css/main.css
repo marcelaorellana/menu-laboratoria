@@ -1,0 +1,49 @@
+/*  font-family: 'Amatic SC', cursive; */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Acme', sans-serif;
+}
+.flex-container{
+	display: flex;
+	justify-content: center;
+}
+.menu{
+	background-color: #E66C73;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-right: 1px solid gray;
+	
+	flex-grow: 1;
+}
+
+
+@media (min-width: 200px) and (max-width: 550px){
+	.flex-container{
+		flex-direction: column;
+	}
+	.menu{
+		background-color: #343131;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+	.menu a{
+		color: white;
+		text-decoration: none;
+		padding: 10px 20px;
+		border-right: 1px solid gray;
+	
+		flex-grow: 1;
+	}
+	
+}
