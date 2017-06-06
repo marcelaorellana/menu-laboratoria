@@ -39,7 +39,9 @@ body{
 	}
 	.menuOculto{
 		display: inline;
-		
+		color: white;
+		font-size: 40px;
+		padding: 5px 20px;
 	}
 	.menu{
 		background-color: #343131;
@@ -48,6 +50,8 @@ body{
 		text-align: center;
 		font-family: 'Amatic SC', cursive;
 		font-weight: 600;
+		
+		
 	}
 	.menu a{
 		color: white;
