@@ -22,28 +22,49 @@ body{
 	text-decoration: none;
 	padding: 10px 20px;
 	border-right: 1px solid gray;
-	
+	cursor:crosshair;
 	flex-grow: 1;
 }
 
+.menuOculto{
+	display: none;
+}
+.menu a:hover{
+	background-color: #c1474e;
+}
 
 @media (min-width: 200px) and (max-width: 550px){
 	.flex-container{
 		flex-direction: column;
+	}
+	.menuOculto{
+		display: inline;
+		
 	}
 	.menu{
 		background-color: #343131;
 		width: 100%;
 		margin: auto;
 		text-align: center;
+		font-family: 'Amatic SC', cursive;
+		font-weight: 600;
 	}
 	.menu a{
 		color: white;
 		text-decoration: none;
 		padding: 10px 20px;
-		border-right: 1px solid gray;
-	
+		border-bottom: 1px solid black;
 		flex-grow: 1;
+		cursor:s-resize;
+	}	
+	.menu a:hover{
+		background-color: #26223d;
 	}
-	
+	.hiden{
+		display: none;
+	}
+	.muestra{
+		display: inline;
+	}
 }
+
